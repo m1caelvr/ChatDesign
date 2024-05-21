@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <section class="header-area">
+            <div class="header-info">
+                <div class="user-img">
+                    <img src="https://s.hdnux.com/photos/51/23/24/10827008/4/1200x0.jpg" alt="">
+                </div>
+                <div class="info-user">
+                    <strong>Will</strong>
+                    <span class="user-status styles-font">Online</span>
+                </div>
+            </div>
+            <div class="time styles-font">
+                Hoje <time datetime="2024-05-09T14:30:00">14:30</time>
+            </div>
+        </section>
+
+        <section class="chat-area" id="chat-area"></section>
+
+        <section class="input-area">
+            <button class="anchor" type="submit"><ion-icon name="add"></ion-icon></button>
+            <label class="input-area">
+                <input id="mensage-for-send" type="text" placeholder="Digite sua mensagem" required>
+                <button id="send-mensage" class="send" type="submit"><ion-icon name="send"></ion-icon></button>
+            </label>
+        </section>
+    </main>
+<script src="./js/adjustScroll.js"></script>
+<script src="./js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
